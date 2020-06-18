@@ -7,7 +7,12 @@ interface IFoodPlateProps {
 export const Container = styled.div<IFoodPlateProps>`
   background: #f0f0f5;
   border-radius: 8px;
-
+  @media (max-width: 700px) {
+    margin: 0 50px;
+  }
+  @media (max-width: 1115px) {
+    margin: 0 5px;
+  }
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;

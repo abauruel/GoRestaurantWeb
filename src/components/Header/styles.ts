@@ -6,12 +6,27 @@ export const Container = styled.div`
 
   header {
     width: 1280px;
-    margin: 0 auto;
-    padding: 0 0 160px;
+    margin: 30px auto;
+    padding: 0 0 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 1280px) {
+      padding: 0 0 120px;
+      margin: 30px;
+      width: auto;
+    }
 
+    @media (max-width: 560px) {
+      flex-direction: column;
+      padding: 0 0 60px;
+      margin: 30px;
+
+      nav {
+        margin-top: 20px;
+        margin: 30px auto;
+      }
+    }
     nav {
       div {
         button {
