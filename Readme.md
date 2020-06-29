@@ -21,10 +21,11 @@
 <p align="center">
   <a href="#rocket-technologies">Technologie used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-can-i-run-it">How can I run it?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-can-i-help">How can I help?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+
+<a href="#-how-can-i-run-it">How can I run it?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-how-can-i-help">How can I help?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#memo-license">License</a>
+
 </p>
 
 <br>
@@ -46,17 +47,13 @@ This project uses these technologies:
 
 ## 💻 Project
 
-Soon...
-
-## 🔖 Layout
-
-<!-- You can download the layout (`.sketch`) using [this link](.github/DevRadar.sketch).
-
-To open it in any SO, use [Figma](https://figma.com). -->
+This application to conect a Fake Api using JSON server, it's a CRUD, is possible to list, create, delete and update foods
 
 ## 👨‍💻 How can I run it?
 
-Soon...
+`yarn && yarn start`
+
+run server `json-server server.json -p 3333`
 
 ## 🤔 How can I help?
 
@@ -73,4 +70,4 @@ This project uses the MIT license. Read [LICENSE](LICENSE.md) for details.
 
 ---
 
-Made with ♥ by Vinícius Albuquerque :wave:
+Made with ♥ by Alex Claude :wave:
